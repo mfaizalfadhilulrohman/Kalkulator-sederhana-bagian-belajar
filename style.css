@@ -1,0 +1,39 @@
+input{
+    width: 210px;
+    height: 80px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+button {
+    margin:5px 5px 1px 0;
+    width: 50px;
+    height: 70px;
+    background-color: yellow;
+    box-shadow: 1px 1px 0 0 black;
+    border-radius: 10px;
+}
+
+#container{
+ background-color: rgba(23, 133, 133, 0.521);
+ padding:50px 10px 50px 10px;
+ width: 300px;
+ border-radius: 10px;
+ box-shadow: 2px 2px 0 0 black;
+}
+
+.ten {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#kon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

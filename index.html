@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="kon">
+        <div>
+
+            <div id="container">
+        
+                <div class="ten">
+                    <input type="text" id="hasil" value="0" disabled placeholder="0">
+                </div>
+            
+                <div class="ten">
+                    <button id="1" value="1" onclick="s()">1</button>
+                    <button id="2" value="2" onclick="d()">2</button>
+                    <button id="3" value="3" onclick="t()">3</button>
+                    <button id="tambah" onclick="tambah()" value="+">+</button>
+                </div>
+        
+                <div class="ten">
+                    <button value="4" onclick="empat()">4</button>
+                    <button value="5" onclick="lima()">5</button>
+                    <buttoN value="6" onclick="enam()">6</buttoN>
+                    <button id="kurang" onclick="kurang()" value="-">-</button>
+                </div>
+                
+                <div class="ten">
+                    <button value="7" onclick="tujuh()">7</button>
+                    <button value="8" onclick="delapan()">8</button>
+                    <buttoN value="9" onclick="sembilan()">9</buttoN>
+                    <button id="kali" onclick="kali()" value="*">x</button>
+                </div>
+            
+                <div class="ten">
+                    <button id="bagi" value="/" onclick="dibagi()">/</button>
+                    <button id="0" value="0" onclick="n()">0</button>
+                    <button onclick="samadengan()">=</button>
+                    <button onclick="delet()">C</button>
+                </div>
+        
+            </div>
+            
+        </div>
+
+    </div>
+
+    <script src="latihan.js"></script>
+</body>
+</html>
